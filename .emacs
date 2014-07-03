@@ -10,36 +10,36 @@
 (require 'general-settings)
 
 ;; install dependencies with el-get
-(require 'el-get-settings)
+;; (require 'el-get-settings)
 
 ;---------------;
 ;;; Utilities ;;;
 ;---------------;
 
 ;; Git
-(include-plugin "magit")
-(require 'magit)
+;; (include-plugin "magit")
+;; (require 'magit)
 
 ;; Popup
-(include-elget-plugin "popup")
-(require 'popup)
+;; (include-elget-plugin "popup")
+;; (require 'popup)
 
 ;; Websocket
-(include-plugin "websocket")
-(require 'websocket)
+;; (include-plugin "websocket")
+;; (require 'websocket)
 
 ;; Request
-(include-plugin "request")
-(require 'request)
+;; (include-plugin "request")
+;; (require 'request)
 
 ;; Auto complete
-(require 'auto-complete-settings)
+;; (require 'auto-complete-settings)
 
 ;; Camelcase functions
-(require 'camelcase-settings)
+;; (require 'camelcase-settings)
 
 ;; Helm
-(require 'helm-settings)
+;; (require 'helm-settings)
 
 
 ;-----------;
@@ -47,34 +47,34 @@
 ;-----------;
 
 ;; Ido mode
-(require 'ido)
-(ido-mode 1)
+;; (require 'ido)
+;; (ido-mode 1)
 
 ;; MuMaMo
-(require 'mumamo-settings)
+;; (require 'mumamo-settings)
 
 ;; Markdown mode
-(require 'markdown-settings)
+;; (require 'markdown-settings)
 
 ;; Python mode 
-(require 'python-settings)
+;; (require 'python-settings)
 
 ;; LaTeX and Auctex
-(require 'latex-settings)
+;; (require 'latex-settings)
 
 ;; SCSS Mode
-(require 'scss-settings)
+;; (require 'scss-settings)
 
 ;; Matlab mode
-(require 'matlab-settings)
+;; (require 'matlab-settings)
 
 ;; Nyancat mode!
-(nyan-mode 1)
+;; (nyan-mode 1)
 
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
 ;; custom-set-faces and custom-set-variables)
-(load 
- (setq custom-file (expand-file-name "settings/custom.el" user-emacs-directory))
- 'noerror)
+;; (load 
+;;  (setq custom-file (expand-file-name "settings/custom.el" user-emacs-directory))
+;;  'noerror)
