@@ -18,6 +18,8 @@
                auto-complete
                color-theme-solarized
                ein
+               flymake-easy
+               flymake-python-pyflakes
                magit
                markdown-mode
                matlab-mode

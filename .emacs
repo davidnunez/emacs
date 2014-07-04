@@ -10,7 +10,7 @@
 (require 'general-settings)
 
 ;; install dependencies with el-get
-;; (require 'el-get-settings)
+(require 'el-get-settings)
 
 ;---------------;
 ;;; Utilities ;;;
