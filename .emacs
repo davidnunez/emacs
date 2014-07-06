@@ -57,7 +57,7 @@
 ;; (require 'markdown-settings)
 
 ;; Python mode 
-(require 'python-settings)
+;; (require 'python-settings)
 
 ;; LaTeX and Auctex
 ;; (require 'latex-settings)
