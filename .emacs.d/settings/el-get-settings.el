@@ -12,6 +12,11 @@
     (goto-char (point-max))
     (eval-print-last-sexp)))
 
+(setq el-get-sources
+      '((:name flymake-python-pyflakes
+         :type elpa)))
+
+
 ; packages to install
 (setq 
  my-packages '(auctex
