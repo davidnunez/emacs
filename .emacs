@@ -80,6 +80,8 @@
 (setq org-log-done t)
 (setq org-agenda-files (list "~/org"))
 
+;; Theme
+(color-theme-solarized-dark)
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
