@@ -72,13 +72,7 @@
 ;; (nyan-mode 1)
 
 ;; org mode
-(require 'org)
-(define-key global-map "\C-cl" 'org-store-link)
-(define-key global-map "\C-ca" 'org-agenda)
-(setq org-default-notes-file (concat org-directory "/notes.org"))
-(define-key global-map "\C-cc" 'org-capture)
-(setq org-log-done t)
-(setq org-agenda-files (list "~/org"))
+(require 'org-settings)
 
 ;; Theme
 (color-theme-solarized-dark)
