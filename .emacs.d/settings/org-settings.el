@@ -788,6 +788,29 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
 (setq org-habit-graph-column 50)
 
 
+; 18.21 Insert inactive timestamps and exclude from export
+
+(defvar bh/insert-inactive-timestamp t)
+
+(defun bh/toggle-insert-inactive-timestamp ()
+  (interactive)
+  (setq bh/insert-inactive-timestamp (not bh/insert-inactive-timestamp))
+  (message "Heading timestamps are %s" (if bh/insert-inactive-timestamp "ON" "OFF")))
+
+(defun bh/insert-inactive-timestamp ()
+  (interactive)
+  (org-insert-time-stamp nil t t nil nil nil))
+
+(defun bh/insert-heading-inactive-timestamp ()
+  (save-excursion
+    (when bh/insert-inactive-timestamp
+      (org-return)
+      (org-cycle)
+      (bh/insert-inactive-timestamp))))
+
+(add-hook 'org-insert-heading-hook 'bh/insert-heading-inactive-timestamp 'append)
+
+
 ; 18.22 Return Follows Links
 
 (setq org-return-follows-link t)
