@@ -790,6 +790,11 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
 
 
 
+ ;; Make windmove work in org-mode (via http://orgmode.org/manual/Conflicts.html):
+(add-hook 'org-shiftup-final-hook 'windmove-up)
+(add-hook 'org-shiftleft-final-hook 'windmove-left)
+(add-hook 'org-shiftdown-final-hook 'windmove-down)
+(add-hook 'org-shiftright-final-hook 'windmove-right)
 
 (provide 'org-settings)
 

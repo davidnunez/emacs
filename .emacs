@@ -77,6 +77,12 @@
 ;; Theme
 (color-theme-solarized-light)
 
+;; windmove
+
+(when (fboundp 'windmove-default-keybindings)
+  (windmove-default-keybindings))
+
+
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
 ;; custom-set-faces and custom-set-variables)
