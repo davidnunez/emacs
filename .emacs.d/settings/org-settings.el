@@ -788,6 +788,10 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
 (setq org-habit-graph-column 50)
 
 
+; 18.22 Return Follows Links
+
+(setq org-return-follows-link t)
+
 
 
  ;; Make windmove work in org-mode (via http://orgmode.org/manual/Conflicts.html):
