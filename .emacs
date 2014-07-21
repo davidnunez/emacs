@@ -75,7 +75,7 @@
 (require 'org-settings)
 
 ;; Theme
-(color-theme-solarized-dark)
+(color-theme-solarized-light)
 
 ;---------------------------------------------------------------------
 ;; Put auto 'custom' changes in a separate file (this is stuff like
