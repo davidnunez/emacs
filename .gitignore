@@ -5,3 +5,8 @@
 .emacs.d/plugins/auctex
 .emacs.d/plugins/pydoc-info-*
 .emacs.d/plugins/matlab/
+
+/.emacs.d/ac-comphist.dat
+/.emacs.d/el-get/
+/.emacs.d/elpa/
+/.emacs.d/org-clock-save.el
