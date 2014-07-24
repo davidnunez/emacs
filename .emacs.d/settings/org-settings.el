@@ -184,7 +184,7 @@
               ("le" "mEal" entry (file+datetree "~/org/logx.org")
                                   "* %? :logx:meal:\n  :LOGBOOK:\n  LOGX: %T \n  :END: %i\n")
               ("ld" "(d)ark" entry (file+datetree "~/org/logx.org")
-                                  "* %? :logx:dark:\n  :LOGBOOK:\n  LOGX: %U \n  :END: %i\n")
+                                  "* %? :logx:dark:\n  :LOGBOOK:\n  CLOCK: %U--%U \n  :END: %i\n")
 
 
               ("n" "note" entry (file "~/org/refile.org")
