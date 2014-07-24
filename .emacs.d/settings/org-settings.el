@@ -167,7 +167,7 @@
                "* MEETING %? :meeting:\n :LOGBOOK:\n CREATED: %U\n :END:\n" :clock-in t :clock-resume t)
               ("b" "(b)reak" entry (file+datetree "~/org/logx.org")
                                   "* break %? :break:\n  %i\n" :clock-in t :clock-resume t)
-              ("t" "(t)ravel" entry (file+datetree "~/org/logx.org")
+              ("r" "t(r)avel" entry (file+datetree "~/org/logx.org")
                                   "* travel %? :travel:\n  %i\n" :clock-in t :clock-resume t)
               ("g" "(g)td" entry (file+datetree "~/org/logx.org")
                                   "* gtd %? :gtd:\n  %i\n" :clock-in t :clock-keep t)
