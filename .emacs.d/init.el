@@ -75,7 +75,7 @@
 (require 'org-settings)
 
 ;; Theme
-(color-theme-solarized-light)
+(color-theme-solarized-dark)
 
 ;; windmove
 
