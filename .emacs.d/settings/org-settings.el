@@ -110,8 +110,10 @@
 
 (setq org-todo-keywords
       (quote ((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
-              (sequence "WAITING(w@/!)" "HOLD(h@/!)" "SOMEDAY(s)" "|" "CANCELLED(c@/!)" "PHONE" "MEETING" "NOTE" "LOGX")
-              (sequence "IDEA(!)" "WONDER(?)" "TOPIC(#)")
+              (sequence "|" "HOLD(h@/!)" "CANCELLED(c@/!)")
+              (sequence "WAITING(w@/!)" "|" "SOMEDAY(s)")
+              (sequence "PHONE" "MEETING" "NOTE" "LOGX")
+              (sequence "|" "IDEA(!)" "WONDER(?)" "TOPIC(#)")
 )))
 
 (setq org-todo-keyword-faces
