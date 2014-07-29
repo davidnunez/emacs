@@ -766,7 +766,7 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
 
 ; 18.9
 
-(setq org-deadline-warning-days 10)
+(setq org-deadline-warning-days 5)
 
 ; 18.12 Logging Stuff  -------------------------------------- 
 
