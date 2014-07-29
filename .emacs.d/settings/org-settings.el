@@ -838,5 +838,11 @@ Skip project and sub-project tasks, habits, and loose non-project tasks."
 (add-hook 'org-shiftdown-final-hook 'windmove-down)
 (add-hook 'org-shiftright-final-hook 'windmove-right)
 
+
+;; ------ MY ADDITIONS
+
+(setq org-agenda-skip-scheduled-if-done t)
+(setq org-agenda-skip-deadline-prewarning-if-scheduled t)
+
 (provide 'org-settings)
 
