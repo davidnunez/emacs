@@ -181,12 +181,12 @@
               ("ms" "(s)leep" entry (file+datetree "~/org/logx.org")
                                   "* sleep %? :sleep:\n  %i\n" :clock-in t :clock-resume t)
               ("l" "LOGX")
-              ("ll" "LOGX" entry (file+datetree "~/org/logx.org")
-                                  "* %? %^G:logx:\n  :LOGBOOK:\n  LOGX: %T \n  :END: %i\n")
-              ("le" "mEal" entry (file+datetree "~/org/logx.org")
-                                  "* %? :logx:meal:\n  :LOGBOOK:\n  LOGX: %T \n  :END: %i\n")
+              ("ll" "(l)OGX" entry (file+datetree "~/org/logx.org")
+                                  "* LOGX %? %T %^G:logx:\n")
+              ("lm" "(m)eal" entry (file+datetree "~/org/logx.org")
+                                  "* LOGX %? %T :logx:meal:\n")
               ("ld" "(d)ark" entry (file+datetree "~/org/logx.org")
-                                  "* %? :logx:dark:\n  :LOGBOOK:\n  CLOCK: %U--%U \n  :END: %i\n")
+                                  "* LOGX %? :logx:dark:\n  :LOGBOOK:\n  CLOCK: %U--%U \n  :END: %i\n")
 
 
               ("n" "note" entry (file "~/org/refile.org")
