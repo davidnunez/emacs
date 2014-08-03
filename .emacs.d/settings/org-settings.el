@@ -249,7 +249,7 @@
 ;; 8.1 Agenda  -----------------------------------------
 
 ;; Do not dim blocked tasks
-(setq org-agenda-dim-blocked-tasks nil)
+;;(setq org-agenda-dim-blocked-tasks nil)
 
 ;; Compact the block agenda view
 (setq org-agenda-compact-blocks t)
