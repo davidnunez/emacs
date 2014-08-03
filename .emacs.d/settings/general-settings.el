@@ -38,9 +38,9 @@
 
 ; each line of text gets one line on the screen (i.e., text will run
 ; off the left instead of wrapping around onto a new line)
-(setq-default truncate-lines 1)
+(setq-default truncate-lines nil)
 ; truncate lines even in partial-width windows
-(setq truncate-partial-width-windows 1)
+(setq truncate-partial-width-windows nil)
 
 ; default window width and height
 (defun custom-set-frame-size ()
@@ -104,8 +104,8 @@
 (size-indication-mode 1)
 
 ; disable backup
-(setq backup-inhibited t)
+;(setq backup-inhibited t)
 ; disable auto save
-(setq auto-save-default nil)
+;(setq auto-save-default nil)
 
 (provide 'general-settings)
