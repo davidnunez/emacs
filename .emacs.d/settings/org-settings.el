@@ -110,7 +110,7 @@
 
 (setq org-todo-keywords
       (quote ((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
-              (sequence "|" "HOLD(h@/!)" "CANCELLED(c@/!)")
+              (sequence "|" "HOLD(h@/!)" "CANCELLED(c@/!)" "TXFR(X)")
               (sequence "WAITING(w@/!)" "|" "SOMEDAY(s)")
               (sequence "PHONE" "MEETING" "NOTE" "LOGX")
               (sequence "|" "IDEA(!)" "WONDER(?)" "TOPIC(#)")
