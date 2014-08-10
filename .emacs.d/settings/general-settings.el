@@ -108,4 +108,8 @@
 ; disable auto save
 ;(setq auto-save-default nil)
 
+; [[http://www.emacswiki.org/emacs/VisualLineMode][visual-line-mode]] 
+(global-visual-line-mode 1)
+(setq visual-line-fringe-indicators '(left-curly-arrow right-curly-arrow))
+
 (provide 'general-settings)
