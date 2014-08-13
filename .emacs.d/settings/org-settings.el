@@ -334,7 +334,8 @@
 ;; 10.2 Task Estimates and Column view ------------------------
 
 ; Set default column view headings: Task Effort Clock_Summary
-(setq org-columns-default-format "%80ITEM(Task) %10Effort(Effort){:} %10CLOCKSUM")
+;(setq org-columns-default-format "%80ITEM(Task) %10Effort(Effort){:} %10CLOCKSUM")
+(setq org-columns-default-format "%TODO %50ITEM %20SCHEDULED %3PRIORITY %Effort{:} %TAGS")
 
 ; global Effort estimate values
 ; global STYLE property values for completion
