@@ -87,6 +87,12 @@
 ;; org mode
 (require 'org-settings)
 
+
+;; dayone mode
+(package-install 'dayone)
+(setq dayone-dir (concat (getenv "HOME") "/Dropbox/Apps/Day One/Journal.dayone/entries/"))
+(setq dayone-timezone "America/New_York")
+
 ;; Theme
 (color-theme-solarized-dark)
 
@@ -111,3 +117,4 @@
 (load 
   (setq custom-file (expand-file-name "settings/custom.el" user-emacs-directory))
   'noerror)
+
